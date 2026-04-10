@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+tmp
+# Virtual environments
+.venv
+openai_api.key
+checkpoints
+data
+logs
+*.npy
+__pycache__
+*.json
+model
+nohup.out
+tokenizer_outputs
+merged_llama
+run_generate_relation_descriptions.sh
+torch**
+*/*_plots
+*_plots

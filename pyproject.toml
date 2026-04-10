@@ -1,0 +1,28 @@
+[project]
+name = "qg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate>=1.10.1",
+    "deepspeed==0.16.4",
+    "httpx[socks]>=0.28.1",
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.7",
+    "numpy>=2.2.6",
+    "openai>=2.3.0",
+    "peft>=0.17.1",
+    "rapidfuzz>=3.14.1",
+    "scikit-learn>=1.7.2",
+    "tensorboard>=2.20.0",
+    "thefuzz>=0.22.1",
+    "torch>=2.8.0",
+    "transformers[deepspeed]>=4.57.1",
+    "types-tqdm>=4.67.0.20250809",
+    "unsloth>=2025.9.5",
+    "vllm>=0.11.0",
+]
+[[tool.mypy.overrides]]
+module = ["sklearn.*"]
+follow_untyped_imports = true
