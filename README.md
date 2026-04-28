@@ -185,11 +185,14 @@ For post-hoc metric computation from an existing prediction file, use [eval_on_d
 If you use this repository, please cite our paper:
 
 ```bibtex
-@inproceedings{todo_acl_2026,
-  title     = {TODO},
-  author    = {TODO},
-  booktitle = {Proceedings of the Association for Computational Linguistics (ACL)},
-  year      = {2026}
+@misc{xie2026gsquantgranularsemanticgenerative,
+      title={GS-Quant: Granular Semantic and Generative Structural Quantization for Knowledge Graph Completion}, 
+      author={Qizhuo Xie and Yunhui Liu and Yu Xing and Qianzi Hou and Xudong Jin and Tao Zheng and Tieke He},
+      year={2026},
+      eprint={2604.21649},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2604.21649}, 
 }
 ```
 
